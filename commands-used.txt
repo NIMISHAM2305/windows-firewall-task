@@ -1,0 +1,19 @@
+# Commands and Actions Used - Windows Firewall Task
+
+1. Opened firewall manager:
+   wf.msc
+
+2. Created inbound rule to block TCP port 23:
+   - Used GUI: New Rule > Port > TCP > 23 > Block > Name: Block Telnet (Port 23)
+
+3. Tested rule using Telnet:
+   - Installed Telnet (if needed):
+     dism /online /Enable-Feature /FeatureName:TelnetClient
+   - Tested:
+     telnet localhost 23
+
+4. Created allow rule for SSH (port 22):
+   - Used GUI: New Rule > Port > TCP > 22 > Allow > Name: Allow SSH (Port 22)
+
+5. Removed Telnet block rule:
+   - Right-click rule > Delete
