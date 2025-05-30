@@ -27,7 +27,7 @@ Configure and test basic firewall rules to allow or block traffic using **Window
 - Viewed and captured existing rules under **Inbound Rules**.
 
 📸 Screenshot:  
-![Current Rules](screenshots/step2-current-rules.png)
+![Current Rules](screenshots/step2-current-rules1.png)
 
 ---
 
